@@ -747,6 +747,17 @@ ul.actions.fit.small li {
     padding-top: 0;
   }
 }
+ul.tabs {
+  display: inline-flex;
+  list-style-type: none;
+}
+ul.tabs li {
+  margin-left: 15px;
+  text-decoration: none;
+}
+ul.tabs li:hover, ul.tabs li:active {
+  text-decoration: underline;
+}
 
 dl {
   margin: 0 0 2rem 0;

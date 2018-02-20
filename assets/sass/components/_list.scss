@@ -181,6 +181,20 @@
 				}
 			}
 		}
+
+		&.tabs{
+			display: inline-flex;
+			list-style-type: none;
+
+			li {
+				margin-left: 15px;
+				text-decoration: none;
+				
+				&:hover, &:active {
+					text-decoration: underline;
+				}
+			}
+		}
 	}
 
 	dl {
