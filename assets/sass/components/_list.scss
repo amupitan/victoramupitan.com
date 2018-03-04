@@ -188,10 +188,12 @@
 
 			li {
 				margin-left: 15px;
-				text-decoration: none;
-				
-				&:hover, &:active {
-					text-decoration: underline;
+				a{
+					border-bottom: none;
+					&:hover, &:active, &.current {
+						padding-bottom: 10px;
+						border-bottom: solid 1px #ffffff;
+					}
 				}
 			}
 		}

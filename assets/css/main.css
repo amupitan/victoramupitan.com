@@ -753,10 +753,13 @@ ul.tabs {
 }
 ul.tabs li {
   margin-left: 15px;
-  text-decoration: none;
 }
-ul.tabs li:hover, ul.tabs li:active {
-  text-decoration: underline;
+ul.tabs li a {
+  border-bottom: none;
+}
+ul.tabs li a:hover, ul.tabs li a:active, ul.tabs li a.current {
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ffffff;
 }
 
 dl {
