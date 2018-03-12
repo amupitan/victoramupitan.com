@@ -610,6 +610,15 @@ input[type="radio"] + label:before {
   }
 }
 
+.half-image::before {
+  background-color: transparent;
+}
+.half-image img#work-image {
+  width: 300px;
+  height: 186px;
+  margin: auto;
+}
+
 /* List */
 ol {
   list-style: decimal;
