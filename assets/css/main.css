@@ -616,7 +616,7 @@ input[type="radio"] + label:before {
 .half-image::before {
   background-color: transparent;
 }
-.half-image img#work-image {
+.half-image img.tab-image {
   width: 300px;
   margin: auto;
 }
