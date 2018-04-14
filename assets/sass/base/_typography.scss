@@ -56,6 +56,9 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+		&.no-margin {
+			margin: 0 0 0 0;			
+		}
 	}
 
 	h1, h2, h3, h4, h5, h6 {
