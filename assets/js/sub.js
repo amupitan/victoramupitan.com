@@ -174,4 +174,7 @@ const projContent = {
     forWorkTab(addHighlightEffect);
     forProjTab(addHighlightEffect);
 
+    // add email to conatct form
+    document.getElementById('contact-form').setAttribute('action', 'https://formspree.io/donv88@live.com');
+
 })(jQuery);

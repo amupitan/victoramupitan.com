@@ -186,7 +186,7 @@
 			<!-- Contact -->
 			<article id="contact">
 				<h2 class="major">Contact</h2>
-				<form method="POST" action="https://formspree.io/donv88@live.com">
+				<form id="contact-form" method="POST" action="/">
 					<div class="field half first">
 						<label for="name">Name</label>
 						<input type="text" name="name" id="name" />
@@ -199,6 +199,8 @@
 						<label for="message">Message</label>
 						<textarea name="message" id="message" rows="4"></textarea>
 					</div>
+					<input type="hidden" name="_next" value="http://victoramupitan.com/#thanks" />
+					<input type="hidden" name="_subject" value="I just checked out your website!" />
 					<ul class="actions">
 						<li>
 							<input type="submit" value="Send Message" class="special" />
@@ -249,12 +251,18 @@
 
 			</article>
 
+			<!-- Thank you -->
+			<article id="thanks">
+				<h2 class="major">Thank You</h2>
+				<p>Thank you for reaching out it! I'll get back to you as soon as I can!</p>
+			</article>
+
 		</div>
 
 		<!-- Footer -->
 		<footer id="footer">
 			<p class="copyright">&copy; 2018 Victor Amupitan. Design:
-				<a href="https://html5up.net">HTML5 UP</a> &amp; Me.</p>
+				<a href="https://html5up.net">HTML5 UP</a> &amp; I.</p>
 		</footer>
 
 	</div>
