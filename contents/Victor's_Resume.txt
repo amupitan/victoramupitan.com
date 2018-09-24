@@ -1,37 +1,38 @@
 Victor Amupitan
-1790 Long Rd Apt D, Ames 50010, IA | victor@victoramupitan.com
+515-735-6370
+victor@victoramupitan.com
+GitHub: amupitan
+
 victoramupitan.com
-Github: Don-V
 
 Education
 IOWA STATE UNIVERSITY, AMES, IA
 · Bachelor of Science in Software Engineering
-· GPA: 3.87/4.00
-· Fall 2015 - Fall 2017 Dean’s List
+· GPA: 3.90/4.00
+· Iowa State’s Dean’s list all six semesters
 
 Expected May 2019
 
 Work Experience
-SOFTWARE DEVELOPMENT INTERN | WORKIVA INC. | MAY 2017 – AUGUST 2017
-· Developed features on a spreadsheets web application using Dart Language to improve functionality
-· Integrated application with other critical internal services using Go Language.
+SOFTWARE ENGINEERING INTERN | WORKIVA INC. | MAY 2017 – AUGUST 2017, MAY 2018 – PRESENT
+· Developed features on the client and server sides of a spreadsheets web application to improve usability and user experience
+· Solved critical support issues.
+· Integrated application with other critical internal services.
+· Ensured Quality Assurance by testing new and existing features
 · Implemented major user-experience improvements, coordinating closely with UX resources.
-FULL STACK WEB DEVELOPER & REASEARCH ASSISTANT | GENETICS, DEVELOPMENT & CELL BIOLOGY, IOWA STATE
+FULL STACK WEB DEVELOPER & RESEARCH ASSISTANT | GENETICS, DEVELOPMENT & CELL BIOLOGY, IOWA STATE
 UNIVERSITY | AUGUST 2016 – MAY 2017
-· Developed web interfaces using technologies like Django, for command line tools developed by the GDC Biology Department.
-WEB CONTENT SPECIALIST | DEPT OF AGRONOMY, IOWA STATE UNIVERSITY | APRIL 2016 – AUGUST 2016
-· Migrated existing static content from Adobe Captivate to a new content management system and formatted e-learning websites
-using Drupal.
+· Provided a web interface for a gene tracing tool to make it user friendly and more useable by a wider audience.
+· Developed the frontend with HTML/CSS/JavaScript(jQuery), and the backend with Python (Django).
 
 Skills
-
 Languages
 
 Libraries/Frameworks/Databases
 
 · C/C++
 
-· JavaScript
+· JavaScript/TypeScript
 
 · Dart
 
@@ -49,33 +50,34 @@ Libraries/Frameworks/Databases
 
 · Node.js
 
-Projects & Activities
+Projects
 READY SET BALL
-· Collaborated with three classmates to create a web application in Go to allow people find pick-up games in their community.
+· Built a service to help people find and start pick-up games in their community.
+· Developed the frontend of the web application using React, and the backend using Go.
+· Enhanced code quality by introducing code review and continuous integration.
+MOBILE APPLICATION DEVELOPMENT
+· Initiated the creation of an Instant Messaging mobile app to help people send and receive messages without a language barrier.
+· Created the structure and UI components of the app using React Native (TypeScript).
 STUDY CARD MAKER
-· Collaborated with a partner to create a Node.js web application that creates study cards from parsing notes typed in a certain syntax
-that can help save students time to study instead of manually making study cards.
+· Provided a web application to help students create note cards from already typed notes, eliminating manual creation of study cards.
+· Worked on the parser. Developed the service using Node.js.
 ROGUELIKE DUNGEON GAME
-· Developed a roguelike dungeon game in C and C++. The game uses graph algorithms to simulate dungeon NPC actions and motion.
-PC GAME DEVELOPMENT
-· Developed a PC puzzle game with three other group members using Slick2D library in Java.
+· Developed a game in C++ to better understand concepts like graph algorithms, memory management, and Object-Oriented design.
 CHROME BROWSER EXTENSION DEVELOPMENT (HACKISU HACKATHON)
-· Participated in a hackathon in a team of four to develop a Google Chrome browser extension using JavaScript. The purpose of the
-extension is to block selected websites on the user’s request at certain times to increase the productivity of the user.
+· Developed a browser extension to enhance productivity by blocking selected websites on the user’s request at certain times.
+· Participated in a hackathon in a team of four to create the extension using JavaScript.
+
+Leadership & Activities
+COMMUNITY ADVISER, IOWA STATE UNIVERISTY RESIDENCE
+AUGUST 2017 – MAY 2018
+· Developed programs and provided resources on diversity, personal development and academic success.
+· Provided advice to residents and responded to routine and emergency situations.
+INFORMATION ASSURANCE STUDENT GROUP
+SPRING 2017
+· Used communication skills to give a presentation on Linux networking tools when I was the club’s public relations officer.
 CYBER DEFENSE COMPETITION
+FALL 2016
 · Collaborated with two other group members to set up a server and secure it from professional penetration testers on the final day
 of the competition.
-WEB GAME DEVELOPMENT
-· Developed an image puzzle web-based game with a partner using React.js. This can be used as a stress-relieving game.
-INFORMATION ASSURANCE STUDENT GROUP
-SEPTEMBER 2015 – PRESENT
-· Used communication skills to give a presentation on Linux networking tools when I was a leader at the club.
-COMPUTER SCIENCE AND SOFTWARE ENGINEERING CLUB
-AUGUST 2015 - PRESENT
-· Attended weekly meetings on presentations about emerging technologies and participated in mini coding competitions
-FRIANT HOUSE, MAPLE STUDENT RESIDENCE
-· Intramural Chair – I organized intramural sports for house members
-
-AUGUST 2015 – MAY 2016
 
 
