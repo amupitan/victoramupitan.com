@@ -1,10 +1,15 @@
 Victor Amupitan
 515-735-6370
+
+|
+
 victor@victoramupitan.com
+
+|
+
 GitHub: amupitan
 
 victoramupitan.com
-
 Education
 IOWA STATE UNIVERSITY, AMES, IA
 · Bachelor of Science in Software Engineering
@@ -15,57 +20,67 @@ Expected May 2019
 
 Work Experience
 SOFTWARE ENGINEERING INTERN | WORKIVA INC. | MAY 2017 – AUGUST 2017, MAY 2018 – PRESENT
-· Developed features on the client and server sides of a spreadsheets web application to improve usability and user experience
-· Solved critical support issues.
-· Integrated application with other critical internal services.
-· Ensured Quality Assurance by testing new and existing features
+· Developed features on the client and server sides of a spreadsheets web application to improve usability and user experience.
+· Was relied upon to solve critical support issues and develop a wide set of general application improvements.
+· Worked in an Agile team and participated in processes like sprint reviews, effort estimation and task creation for epics.
+· Ensured Quality Assurance by writing unit and integration tests for new and existing features and participating in code reviews.
 · Implemented major user-experience improvements, coordinating closely with UX resources.
 FULL STACK WEB DEVELOPER & RESEARCH ASSISTANT | GENETICS, DEVELOPMENT & CELL BIOLOGY, IOWA STATE
 UNIVERSITY | AUGUST 2016 – MAY 2017
-· Provided a web interface for a gene tracing tool to make it user friendly and more useable by a wider audience.
+· Provided a web interface for a gene tracing tool to make it user-friendly and more usable by a wider audience.
 · Developed the frontend with HTML/CSS/JavaScript(jQuery), and the backend with Python (Django).
+· Designed the application using a Model-View-Controller (MVC) architecture style
 
 Skills
 Languages
 
 Libraries/Frameworks/Databases
 
-· C/C++
+· Go
 
-· JavaScript/TypeScript
+· JavaScript
 
-· Dart
+· Java
 
 · Django
 
 · MongoDB
 
-· Java
+· C++
 
-· Go
+· TypeScript
 
-· Python
+·C
 
 · React.js
 
 · Node.js
 
+· Python
+
+· Dart
+
+· React Native
+
+· Docker
+
 Projects
 READY SET BALL
 · Built a service to help people find and start pick-up games in their community.
 · Developed the frontend of the web application using React, and the backend using Go.
+· Designed the architecture for the server using clean architecture styles to improve testability.
 · Enhanced code quality by introducing code review and continuous integration.
-MOBILE APPLICATION DEVELOPMENT
-· Initiated the creation of an Instant Messaging mobile app to help people send and receive messages without a language barrier.
-· Created the structure and UI components of the app using React Native (TypeScript).
 STUDY CARD MAKER
 · Provided a web application to help students create note cards from already typed notes, eliminating manual creation of study cards.
 · Worked on the parser. Developed the service using Node.js.
 ROGUELIKE DUNGEON GAME
 · Developed a game in C++ to better understand concepts like graph algorithms, memory management, and Object-Oriented design.
-CHROME BROWSER EXTENSION DEVELOPMENT (HACKISU HACKATHON)
-· Developed a browser extension to enhance productivity by blocking selected websites on the user’s request at certain times.
-· Participated in a hackathon in a team of four to create the extension using JavaScript.
+NAÏVE BAYES MACHINE LEARNING PREDICTOR
+· Developed a machine learning predictor to predict the news category a document might belong in.
+· Implemented the predictor in C++ using Bayesian estimator and maximum likelihood estimator.
+MOBILE APPLICATION DEVELOPMENT
+· Initiated the creation of an Instant Messaging mobile app to help people send and receive messages without a language barrier.
+· Created the structure and UI components of the app using React Native (TypeScript).
 
 Leadership & Activities
 COMMUNITY ADVISER, IOWA STATE UNIVERISTY RESIDENCE
@@ -75,9 +90,5 @@ AUGUST 2017 – MAY 2018
 INFORMATION ASSURANCE STUDENT GROUP
 SPRING 2017
 · Used communication skills to give a presentation on Linux networking tools when I was the club’s public relations officer.
-CYBER DEFENSE COMPETITION
-FALL 2016
-· Collaborated with two other group members to set up a server and secure it from professional penetration testers on the final day
-of the competition.
 
 
