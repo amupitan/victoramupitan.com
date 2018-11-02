@@ -1,12 +1,16 @@
+'use strict';
+
 const workContent = {
     workiva: {
         name: 'Workiva Inc.',
         position: 'Software Engineering Intern',
-        date: 'May 2017 - August 2017',
+        date: ['May 2017 - August 2017', 'May 2018 - Present'],
         tasks: [
-            'Developed features on a spreadsheets web application using Dart Language',
-            'Integrated application with other critical internal services using Go Language',
-            'Implemented major user-experience improvements, coordinating closely with UX resources',
+            'Develop features on the client and server sides of a spreadsheets web application to improve usability and user experience.',
+            'Relied upon to solve critical support issues and develop a wide set of general application improvements and optimizations.',
+            'Participate in agile processes like sprint reviews, effort estimation and task creation for epics.',
+            'Improve Quality Assurance by writing unit and integration tests for new and existing features and participating in code reviews.',
+            'Implement major user-experience improvements, coordinating closely with UX resources.',
         ],
     },
     'isu-gdcb': {
@@ -14,7 +18,9 @@ const workContent = {
         position: 'Full-Stack Web Developer & Research Assistant',
         date: 'August 2016 – May 2017',
         tasks: [
-            'Developed web interfaces using technologies like Django, for command line tools developed by the GDC Biology Department',
+            'Provided a web interface for a gene tracing product to make it user-friendly and more usable by a wider audience.',
+            'Developed the frontend with HTML/CSS/JavaScript(jQuery), and the backend with Python (Django).',
+            'Designed the application using a Model-View-Controller (MVC) architecture style.',
         ],
     },
     'isu-dor': {
@@ -22,7 +28,8 @@ const workContent = {
         position: 'Community Advisor (Resident Assistant)',
         date: 'August 2017 – May 2018',
         tasks: [
-            'Assisted students in adjusting to campus living',
+            'Developed programs and provided resources on diversity, personal development and academic success.',
+            'Provided advice to residents and responded to routine and emergency situations.',
         ],
     },
 };
@@ -33,9 +40,10 @@ const projContent = {
         skills: ['Go', 'JavaScript', 'React.js', 'MongoDB'],
         date: 'Fall 2017',
         tasks: [
-            'Collaborated with three other classmates to develop a web application to find pick-up games',
-            'Developed the server of the application using Go',
-            'Developed significant parts of the UI using React',
+            'Built a service to help people find and start pick - up games in their community.',
+            'Developed the frontend of the web application using React, and the backend using Go.',
+            'Designed the architecture for the server - side using clean architecture styles to improve testability.',
+            'Enhanced code quality by introducing formal code review and continuous integration.',
         ],
         git: 'https://github.com/amupitan/rsb-web-front',
     },
@@ -52,7 +60,7 @@ const projContent = {
         skills: ['C/C++', 'Ncurses'],
         date: 'Spring 2017',
         tasks: [
-            'Developed a roguelike dungeon game in C and C++.',
+            'Developed a roguelike dungeon game in C++ to better understand computer science concepts like data structures, graph algorithms, memory management, and Object-Oriented design.',
             'Used graph algorithms to simulate dungeon NPC actions and motion.',
         ],
         git: 'https://github.com/amupitan/roguelike-roadmap',
@@ -105,8 +113,23 @@ const projContent = {
         const textDiv = document.getElementById('work-text');
         textDiv.innerHTML = `
         <strong><p class='no-margin align-left'>${workContent[tabName].name}</p></strong>
-        <p class='no-margin align-left'>${workContent[tabName].position}</p>
-        <p class='align-left'>${workContent[tabName].date}</p>`;
+        <p class='no-margin align-left'>${workContent[tabName].position}</p>`;
+
+        // append date(s)
+        const dates = workContent[tabName].date;
+        if (typeof dates == 'string') {
+            textDiv.innerHTML += `<p class='align-left'>${dates}</p>`;
+        } else if (Array.isArray(dates) && dates.length > 0) {
+            // append each date but not the last one
+            for (let i = 0; i < dates.length - 1; i++) {
+                textDiv.innerHTML += `<p class='no-margin align-left'>${dates[i]}</p>`;
+            }
+
+            // append the last date without the no-margin class
+            textDiv.innerHTML += `<p class='align-left'>${dates[dates.length - 1]}</p>`
+        }
+
+        // append job accomplishments
         const ul = document.createElement('ul');
         for (const line of workContent[tabName].tasks) {
             const li = document.createElement('li');
@@ -118,7 +141,9 @@ const projContent = {
 
     const replaceProjTabContent = (tabName) => {
         const content = projContent[tabName];
-        document.getElementById('proj-image').setAttribute('src', `images/${tabName}.jpg`);
+        if (content.noImage !== true) {
+            document.getElementById('proj-image').setAttribute('src', `images/${tabName}.jpg`);
+        }
         document.getElementById('proj-name').innerHTML = content.name;
         const textDiv = document.getElementById('proj-text');
         textDiv.innerHTML = `
@@ -155,9 +180,7 @@ const projContent = {
 
     const deactiveTabs = ({ isWork = true }) => {
         const tabType = isWork ? forWorkTab : forProjTab;
-        tabType((tab) => {
-            tab.classList.remove(currentSelected);
-        });
+        tabType((tab) => tab.classList.remove(currentSelected));
     };
 
     const addHighlightEffect = (tab, { isWork = true }) => {
@@ -174,7 +197,7 @@ const projContent = {
     forWorkTab(addHighlightEffect);
     forProjTab(addHighlightEffect);
 
-    // add email to conatct form
+    // add email to contact form
     document.getElementById('contact-form').setAttribute('action', 'https://formspree.io/donv88@live.com');
 
 })(jQuery);
