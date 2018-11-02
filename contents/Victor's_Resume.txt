@@ -1,40 +1,33 @@
 Victor Amupitan
-515-735-6370
-
-|
-
-victor@victoramupitan.com
-
-|
-
-GitHub: amupitan
-
+515-735-6370 | victor@victoramupitan.com | GitHub: amupitan | Ames, IA
 victoramupitan.com
+
 Education
+
 IOWA STATE UNIVERSITY, AMES, IA
 · Bachelor of Science in Software Engineering
-· GPA: 3.90/4.00
-· Iowa State’s Dean’s list all six semesters
+· GPA: 3.90/4.00 (Iowa State’s Dean’s list all six semesters)
 
 Expected May 2019
 
 Work Experience
-SOFTWARE ENGINEERING INTERN | WORKIVA INC. | MAY 2017 – AUGUST 2017, MAY 2018 – PRESENT
-· Developed features on the client and server sides of a spreadsheets web application to improve usability and user experience.
-· Was relied upon to solve critical support issues and develop a wide set of general application improvements.
-· Worked in an Agile team and participated in processes like sprint reviews, effort estimation and task creation for epics.
-· Ensured Quality Assurance by writing unit and integration tests for new and existing features and participating in code reviews.
-· Implemented major user-experience improvements, coordinating closely with UX resources.
-FULL STACK WEB DEVELOPER & RESEARCH ASSISTANT | GENETICS, DEVELOPMENT & CELL BIOLOGY, IOWA STATE
-UNIVERSITY | AUGUST 2016 – MAY 2017
-· Provided a web interface for a gene tracing tool to make it user-friendly and more usable by a wider audience.
+SOFTWARE ENGINEER, INTERN
+WORKIVA INC, AMES, IA
+MAY – AUGUST 2017, MAY 2018 – PRESENT
+· Develop features on the client and server sides of a spreadsheets web application to improve usability and user experience.
+· Relied upon to solve critical support issues and develop a wide set of general application improvements and optimizations.
+· Participate in agile processes like sprint reviews, effort estimation and task creation for epics.
+· Improve Quality Assurance by writing unit and integration tests for new and existing features and participating in code reviews.
+· Implement major user-experience improvements, coordinating closely with UX resources.
+FULL STACK DEVELOPER & RESEARCH
+IOWA STATE UNIVERSITY
+AUGUST 2016 – MAY 2017
+· Provided a web interface for a gene tracing product to make it user-friendly and more usable by a wider audience.
 · Developed the frontend with HTML/CSS/JavaScript(jQuery), and the backend with Python (Django).
-· Designed the application using a Model-View-Controller (MVC) architecture style
+· Designed the application using a Model-View-Controller (MVC) architecture style.
 
 Skills
-Languages
-
-Libraries/Frameworks/Databases
+Languages/Libraries/Frameworks/Databases
 
 · Go
 
@@ -46,15 +39,19 @@ Libraries/Frameworks/Databases
 
 · MongoDB
 
+· Git
+
 · C++
 
 · TypeScript
 
-·C
+· C
 
 · React.js
 
 · Node.js
+
+· Apache Thrift
 
 · Python
 
@@ -68,19 +65,20 @@ Projects
 READY SET BALL
 · Built a service to help people find and start pick-up games in their community.
 · Developed the frontend of the web application using React, and the backend using Go.
-· Designed the architecture for the server using clean architecture styles to improve testability.
-· Enhanced code quality by introducing code review and continuous integration.
+· Designed the architecture for the server-side using clean architecture styles to improve testability.
+· Enhanced code quality by introducing formal code review and continuous integration.
 STUDY CARD MAKER
-· Provided a web application to help students create note cards from already typed notes, eliminating manual creation of study cards.
-· Worked on the parser. Developed the service using Node.js.
+· Designed a web application to help students create note cards from already typed notes, eliminating manual creation of study cards.
+· Implemented the parser using JavaScript and the server as a REST API using NodeJS.
 ROGUELIKE DUNGEON GAME
-· Developed a game in C++ to better understand concepts like graph algorithms, memory management, and Object-Oriented design.
+· Developed a roguelike dungeon game in C++ to better understand computer science concepts like data structures, graph algorithms,
+memory management, and Object-Oriented design.
 NAÏVE BAYES MACHINE LEARNING PREDICTOR
 · Developed a machine learning predictor to predict the news category a document might belong in.
 · Implemented the predictor in C++ using Bayesian estimator and maximum likelihood estimator.
 MOBILE APPLICATION DEVELOPMENT
 · Initiated the creation of an Instant Messaging mobile app to help people send and receive messages without a language barrier.
-· Created the structure and UI components of the app using React Native (TypeScript).
+· Created the structure and UI components of the cross-platform (iOS and Android) app using React Native (TypeScript).
 
 Leadership & Activities
 COMMUNITY ADVISER, IOWA STATE UNIVERISTY RESIDENCE
@@ -88,7 +86,7 @@ AUGUST 2017 – MAY 2018
 · Developed programs and provided resources on diversity, personal development and academic success.
 · Provided advice to residents and responded to routine and emergency situations.
 INFORMATION ASSURANCE STUDENT GROUP
-SPRING 2017
+MARCH 2017
 · Used communication skills to give a presentation on Linux networking tools when I was the club’s public relations officer.
 
 
