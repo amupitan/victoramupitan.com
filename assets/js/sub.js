@@ -1,10 +1,18 @@
 'use strict';
 
 const workContent = {
+    microsoft: {
+        name: 'Microsoft',
+        position: 'Software Engineering',
+        date: 'June 2019 - Present',
+        tasks: [
+            'Develop and maintain Microsoft Windows Bluetooth Stack',
+        ],
+    },
     workiva: {
         name: 'Workiva Inc.',
         position: 'Software Engineering Intern',
-        date: ['May 2017 - August 2017', 'May 2018 - Present'],
+        date: ['May 2017 - August 2017', 'May 2018 - May 2019'],
         tasks: [
             'Develop features on the client and server sides of a spreadsheets web application to improve usability and user experience.',
             'Relied upon to solve critical support issues and develop a wide set of general application improvements and optimizations.',
@@ -183,19 +191,26 @@ const projContent = {
         tabType((tab) => tab.classList.remove(currentSelected));
     };
 
-    const addHighlightEffect = (tab, { isWork = true }) => {
-        tab.onclick = (evt) => {
-            evt.preventDefault();
-            deactiveTabs({ isWork });
-            evt.target.classList.add(currentSelected);
+    const addHighlightEffect = (target, { isWork = true }) => {
+        deactiveTabs({ isWork });
+        target.classList.add(currentSelected);
 
-            const replacementFunc = isWork ? replaceWorkTabContent : replaceProjTabContent;
-            replacementFunc(tab.dataset.name);
-        };
+        console.log(target.dataset);
+        const replacementFunc = isWork ? replaceWorkTabContent : replaceProjTabContent;
+        replacementFunc(target.dataset.name);
     };
 
-    forWorkTab(addHighlightEffect);
-    forProjTab(addHighlightEffect);
+    const setupHighlightEffectWhenClicked = (tab, { isWork = true }) => {
+        tab.onclick = (evt) => {
+            evt.preventDefault();
+            addHighlightEffect(evt.target, { isWork });
+        };
+    };
+    forWorkTab(setupHighlightEffectWhenClicked);
+    forProjTab(setupHighlightEffectWhenClicked);
+
+    // perform initial work selection 
+    forTab({ tabs: [document.getElementById('work-tabs').children.item(0)], isWork: true })(addHighlightEffect);
 
     // add email to contact form
     document.getElementById('contact-form').setAttribute('action', 'https://formspree.io/donv88@live.com');
